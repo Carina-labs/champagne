@@ -1,0 +1,1058 @@
+{
+  "genesis_time": "2022-12-15T15:41:19.399065432Z",
+  "chain_id": "champagne",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "app_hash": "",
+  "app_state": {
+    "airdrop": {
+      "states": [],
+      "airdrop_info": {
+        "snapshot_timestamp": "2022-12-15T15:41:19.398806784Z",
+        "airdrop_start_timestamp": "2022-15-21T15:41:19.398806859Z",
+        "airdrop_end_timestamp": "2023-01-17T15:41:19.398807040Z",
+        "airdrop_denom": "unova",
+        "quests_count": 5,
+        "controller_address": "",
+        "maximum_token_alloc_per_user": "1000000000"
+      }
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1zkarsurgym3hnm06qupyt96pu0k24k4fgu9n3d",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1059974vvy0ajtlmzv05u5323lns3uxn8as99az",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1gmak3zd0juj2kt3mhxrz0dh5llz2a8jqqrwkae",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1qhv96uxxammm7wx55yuhfgvxawpq5c6jus99cl",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1nfvtp8j9stleerluxwhuacjw0z27eee2v3lsf8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1szdekynrqh78dwmcf3u8xnzlplkudqf8plrry5",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1kh3uudckg4yqt6teyx0sskhvssus58fy5wpwga",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova17k43m7n5gp7rksu6mm8xqj9hz2apylgte5ugu4",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova16fy7ghwgm2s7mvccqtu97z5a9kru3uqcxz5s26",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1c445aeds2hn3c9y38cl8xfww6gxhcuda7zyasz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1r68vx6s83xpsqfrufpe7m5dcapytnssrlkhnhj",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1f9qy79mywau476nzeg4kk65a7zc46u2ua3lpku",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1a2ztk5zcf83eg8y5v3ud0hldvm9q3vpl9w3qnk",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova17xy9k6x89z5mspdpn9447fpdjtyvg4u2z49qt2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova159kd90d5ttr895xu3a5nujlpyt6zga0lfwsaqs",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova16096ngyvftvg2hh8dsy6eken0ptzjet299v0s4",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1wvk7h85s7qfv5dxw0yr42pr2pch3fxvlvf7cqa",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1s45f7njyv75apw9p7epdqeq6s7kw4t2wv447td",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1jvy5rzfs4wqaxk552f73lrmhf6nef9saefeamr",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1ww3yhxs2l5wwcfgjy0fnxj2qt7e9anpt0rcgks",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1j2c05gtnae4m6kdjhae4s93stvpyldt49axync",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1xvjpdnvsw0whs2da7lh5k6mvt54qhmtunvz305",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1dalcjcc9rxe3xycwzjt775lml0a328xzd82aqy",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1sxcf48zkh0q4cgah92l9gvvpex5z9r2ldc9da3",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1w9et6xu6rj00thut2es5k68spklpw4zar7fr04",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1m4y2lt2c8kjt2gmaeugdx6jj5ah9wvkyefah2e",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1gwylkk7qkwzgsvvcllxf53u9l223nt5vnxfj6c",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1gcv4wh4unn5677yvv3l5t4xg8wudtps45gnzyt",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova187q249jqh756qhqlsfa4atxkzrfcregmfku6f5",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova10295rsh26dz5hghwradgpe25s04f9aeact8fns",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova16wwp20g4279zgnxeg2efj5zqsxn483aytq3kfd",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1ww0fzrc3nltmy50nfvwq87ehln7pysfg4c7jvg",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1m09lnmn4rda0pvnkk0vjm4fvj68arcknajcclx",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1lds58drg8lvnaprcue2sqgfvjnz5ljlkq9lsyf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1dfqzh33unmea05hpzhvw6pjx24t2f8cgnxx0vh",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1u9vn33qs6jdr3wwq4u2l9p349n9c95ux083zdz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1kxdf08v5th7g983ggxqak4w6vsyu88tnnkwlxt",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova16y6jyjg8k7utjtf9zd0zaqef4p8qqs89mwk3f4",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova14qehls0kenjad2lth33ry7aed8nyk0tkagu7jl",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1wylwuvhrpfhnq79g0m9pqdlu30xz6c5pc770uw",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1snnccjuatcfqjv0lu7rsvl2e9ulwcvqtdy6nuy",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "nova1f0ncyee30hlf4m3ym7f87gcr4fu2qffmyk5508",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "nova1qhv96uxxammm7wx55yuhfgvxawpq5c6jus99cl",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1zkarsurgym3hnm06qupyt96pu0k24k4fgu9n3d",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1r68vx6s83xpsqfrufpe7m5dcapytnssrlkhnhj",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1xvjpdnvsw0whs2da7lh5k6mvt54qhmtunvz305",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova187q249jqh756qhqlsfa4atxkzrfcregmfku6f5",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1gwylkk7qkwzgsvvcllxf53u9l223nt5vnxfj6c",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1gcv4wh4unn5677yvv3l5t4xg8wudtps45gnzyt",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1gmak3zd0juj2kt3mhxrz0dh5llz2a8jqqrwkae",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "10000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1f9qy79mywau476nzeg4kk65a7zc46u2ua3lpku",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1dfqzh33unmea05hpzhvw6pjx24t2f8cgnxx0vh",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "10000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1dalcjcc9rxe3xycwzjt775lml0a328xzd82aqy",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1w9et6xu6rj00thut2es5k68spklpw4zar7fr04",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1wvk7h85s7qfv5dxw0yr42pr2pch3fxvlvf7cqa",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1ww0fzrc3nltmy50nfvwq87ehln7pysfg4c7jvg",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1ww3yhxs2l5wwcfgjy0fnxj2qt7e9anpt0rcgks",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova10295rsh26dz5hghwradgpe25s04f9aeact8fns",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1059974vvy0ajtlmzv05u5323lns3uxn8as99az",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "10000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1szdekynrqh78dwmcf3u8xnzlplkudqf8plrry5",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1sxcf48zkh0q4cgah92l9gvvpex5z9r2ldc9da3",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1s45f7njyv75apw9p7epdqeq6s7kw4t2wv447td",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1j2c05gtnae4m6kdjhae4s93stvpyldt49axync",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1jvy5rzfs4wqaxk552f73lrmhf6nef9saefeamr",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1nfvtp8j9stleerluxwhuacjw0z27eee2v3lsf8",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova159kd90d5ttr895xu3a5nujlpyt6zga0lfwsaqs",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1kh3uudckg4yqt6teyx0sskhvssus58fy5wpwga",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1c445aeds2hn3c9y38cl8xfww6gxhcuda7zyasz",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova16fy7ghwgm2s7mvccqtu97z5a9kru3uqcxz5s26",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova16wwp20g4279zgnxeg2efj5zqsxn483aytq3kfd",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova16096ngyvftvg2hh8dsy6eken0ptzjet299v0s4",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1m09lnmn4rda0pvnkk0vjm4fvj68arcknajcclx",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1m4y2lt2c8kjt2gmaeugdx6jj5ah9wvkyefah2e",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1u9vn33qs6jdr3wwq4u2l9p349n9c95ux083zdz",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1a2ztk5zcf83eg8y5v3ud0hldvm9q3vpl9w3qnk",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova17xy9k6x89z5mspdpn9447fpdjtyvg4u2z49qt2",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova17k43m7n5gp7rksu6mm8xqj9hz2apylgte5ugu4",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1lds58drg8lvnaprcue2sqgfvjnz5ljlkq9lsyf",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "10000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1kxdf08v5th7g983ggxqak4w6vsyu88tnnkwlxt",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova16y6jyjg8k7utjtf9zd0zaqef4p8qqs89mwk3f4",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "10000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1snnccjuatcfqjv0lu7rsvl2e9ulwcvqtdy6nuy",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "10000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1wylwuvhrpfhnq79g0m9pqdlu30xz6c5pc770uw",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "10000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova14qehls0kenjad2lth33ry7aed8nyk0tkagu7jl",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "10000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1f0ncyee30hlf4m3ym7f87gcr4fu2qffmyk5508",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "10000000000"
+            }
+          ]
+        }
+      ],
+      "supply": [],
+      "denom_metadata": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "unova",
+        "amount": "1000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "gal": {
+      "params": {},
+      "deposit_record": [],
+      "delegate_record": [],
+      "undelegate_record": [],
+      "withdraw_record": [],
+      "record_info": []
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "nova",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nova1zkarsurgym3hnm06qupyt96pu0k24k4fgu9n3d",
+                "validator_address": "novavaloper1zkarsurgym3hnm06qupyt96pu0k24k4fpqd2fn",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Ksuh9QhCJehFrAnFpgaY5B2amZEXHr7cZm1v/Y09ZWk="
+                },
+                "value": {
+                  "denom": "unova",
+                  "amount": "100000000000"
+                }
+              }
+            ],
+            "memo": "11843270ecaa7a495ced55bf6e74cdaa4b410b8a@192.168.105.33:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Axf87gx89AFuN9uf3r/18BVH143DNxHgYTdKi0IH4Wj9"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "g1Eu0Ixo4a0UhdmdPxhzqD+FRUSdpRpy+555VBRoENxIdeut3kX/iNCYz6HSOA6HzL2APppOzEvYKBSUcPZWEQ=="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "unova",
+            "amount": "100000000"
+          }
+        ],
+        "max_deposit_period": "172800s"
+      },
+      "voting_params": {
+        "voting_period": "1800s"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000"
+      }
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "icacontrol": {
+      "params": {
+        "controller_key_manager": [
+          "nova1lds58drg8lvnaprcue2sqgfvjnz5ljlkq9lsyf"
+        ]
+      },
+      "controller_address_info": [
+        {
+          "zone_id": "gaia",
+          "controller_address": "nova1f0ncyee30hlf4m3ym7f87gcr4fu2qffmyk5508"
+        },
+        {
+          "zone_id": "osmosis",
+          "controller_address": "nova1kxdf08v5th7g983ggxqak4w6vsyu88tnnkwlxt"
+        },
+        {
+          "zone_id": "juno",
+          "controller_address": "nova16y6jyjg8k7utjtf9zd0zaqef4p8qqs89mwk3f4"
+        }
+      ]
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": false,
+          "allow_messages": []
+        }
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "unova",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "5259600",
+        "distribution_proportions": {
+          "staking": "0.500000000000000000",
+          "lp_incentives": "0.400000000000000000",
+          "community_pool": "0.100000000000000000"
+        }
+      }
+    },
+    "oracle": {
+      "params": {
+        "oracle_key_manager": [
+          "nova1lds58drg8lvnaprcue2sqgfvjnz5ljlkq9lsyf"
+        ]
+      },
+      "states": [],
+      "oracle_address_info": [
+        {
+          "zone_id": "gaia",
+          "oracle_address": [
+            "nova14qehls0kenjad2lth33ry7aed8nyk0tkagu7jl"
+          ]
+        },
+        {
+          "zone_id": "osmosis",
+          "oracle_address": [
+            "nova1wylwuvhrpfhnq79g0m9pqdlu30xz6c5pc770uw"
+          ]
+        },
+        {
+          "zone_id": "juno",
+          "oracle_address": [
+            "nova1snnccjuatcfqjv0lu7rsvl2e9ulwcvqtdy6nuy"
+          ]
+        }
+      ]
+    },
+    "params": null,
+    "poolincentive": {
+      "params": {
+        "operators": []
+      },
+      "incentive_pool_info": {
+        "total_weight": "0",
+        "incentive_pools": []
+      },
+      "candidate_pool_info": {
+        "candidate_pools": []
+      }
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "43200s",
+        "max_validators": 100,
+        "max_entries": "10",
+        "historical_entries": 10000,
+        "bond_denom": "unova"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      }
+    },
+    "upgrade": {},
+    "vesting": {},
+    "wasm": {
+      "params": {
+        "code_upload_access": {
+          "permission": "Everybody",
+          "address": "",
+          "addresses": []
+        },
+        "instantiate_default_permission": "Everybody"
+      },
+      "codes": [],
+      "contracts": [],
+      "sequences": [],
+      "gen_msgs": []
+    },
+    "liquidity": {
+      "params": {
+        "pool_creation_fee": [
+          {
+            "denom": "unova"
+          }
+        ]
+      }
+    }
+  }
+}
