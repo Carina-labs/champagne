@@ -1,4 +1,4 @@
-# champagne
+# Champagne
 supernova testent
 
 # Supernova Testnet Champagne
