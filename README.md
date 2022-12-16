@@ -15,7 +15,7 @@ First public nova testnet.
 
 * 4 Cores
 * 32 GB RAM
-* 100GB
+* 100GB+ Storage
 
 ### Software Versions
 
