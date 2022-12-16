@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-12-14T15:41:19.399065432Z",
-  "chain_id": "champagne",
+  "genesis_time": "2022-12-15T17:52:33.031095682Z",
+  "chain_id": "nova",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -25,12 +25,12 @@
     "airdrop": {
       "states": [],
       "airdrop_info": {
-        "snapshot_timestamp": "2022-12-14T15:41:19.398806784Z",
-        "airdrop_start_timestamp": "2022-12-14T15:41:19.398806859Z",
-        "airdrop_end_timestamp": "2023-01-17T15:41:19.398807040Z",
+        "snapshot_timestamp": "2022-12-15T17:52:33.030913902Z",
+        "airdrop_start_timestamp": "2022-12-22T17:52:33.030913969Z",
+        "airdrop_end_timestamp": "2023-01-15T17:52:33.030914131Z",
         "airdrop_denom": "unova",
         "quests_count": 5,
-        "controller_address": "novad1test",
+        "controller_address": "nova1qypa2uz6",
         "maximum_token_alloc_per_user": "1000000000"
       }
     },
@@ -297,63 +297,21 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nova1kxdf08v5th7g983ggxqak4w6vsyu88tnnkwlxt",
+          "address": "nova104w5m98x0fd4fw44gar6tqrs6j6elevpnq8rlw",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nova16y6jyjg8k7utjtf9zd0zaqef4p8qqs89mwk3f4",
+          "address": "nova18fysw88vuk5nzlzlymcdflhrx94jqzzewy5dgg",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nova14qehls0kenjad2lth33ry7aed8nyk0tkagu7jl",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nova1wylwuvhrpfhnq79g0m9pqdlu30xz6c5pc770uw",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nova1snnccjuatcfqjv0lu7rsvl2e9ulwcvqtdy6nuy",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nova1f0ncyee30hlf4m3ym7f87gcr4fu2qffmyk5508",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nova10q2c4wnunpfycr95c722fxe37m6j3ulsl5380q",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nova17kqkgyh9fea42kqmuyx6fdffxmrjwh64t3lye3",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "nova1k2h20vvxvclvksg72c4ewxwztf64uetf8s3k5x",
+          "address": "nova1j26aws0zz3xss7r5ql0jwmhm6f9mlqq5ezqdky",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -383,7 +341,7 @@
           "coins": [
             {
               "denom": "unova",
-              "amount": "1000000000000"
+              "amount": "10000000000000"
             }
           ]
         },
@@ -402,6 +360,15 @@
             {
               "denom": "unova",
               "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova18fysw88vuk5nzlzlymcdflhrx94jqzzewy5dgg",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000000"
             }
           ]
         },
@@ -437,7 +404,7 @@
           "coins": [
             {
               "denom": "unova",
-              "amount": "10000000000"
+              "amount": "100000000000"
             }
           ]
         },
@@ -518,7 +485,16 @@
           "coins": [
             {
               "denom": "unova",
-              "amount": "10000000000"
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova104w5m98x0fd4fw44gar6tqrs6j6elevpnq8rlw",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000000"
             }
           ]
         },
@@ -555,6 +531,15 @@
             {
               "denom": "unova",
               "amount": "1000000000"
+            }
+          ]
+        },
+        {
+          "address": "nova1j26aws0zz3xss7r5ql0jwmhm6f9mlqq5ezqdky",
+          "coins": [
+            {
+              "denom": "unova",
+              "amount": "1000000000000"
             }
           ]
         },
@@ -692,87 +677,6 @@
               "amount": "10000000000"
             }
           ]
-        },
-        {
-          "address": "nova1kxdf08v5th7g983ggxqak4w6vsyu88tnnkwlxt",
-          "coins": [
-            {
-              "denom": "unova",
-              "amount": "1000000000"
-            }
-          ]
-        },
-        {
-          "address": "nova16y6jyjg8k7utjtf9zd0zaqef4p8qqs89mwk3f4",
-          "coins": [
-            {
-              "denom": "unova",
-              "amount": "10000000000"
-            }
-          ]
-        },
-        {
-          "address": "nova1snnccjuatcfqjv0lu7rsvl2e9ulwcvqtdy6nuy",
-          "coins": [
-            {
-              "denom": "unova",
-              "amount": "10000000000"
-            }
-          ]
-        },
-        {
-          "address": "nova1wylwuvhrpfhnq79g0m9pqdlu30xz6c5pc770uw",
-          "coins": [
-            {
-              "denom": "unova",
-              "amount": "10000000000"
-            }
-          ]
-        },
-        {
-          "address": "nova14qehls0kenjad2lth33ry7aed8nyk0tkagu7jl",
-          "coins": [
-            {
-              "denom": "unova",
-              "amount": "10000000000"
-            }
-          ]
-        },
-        {
-          "address": "nova1f0ncyee30hlf4m3ym7f87gcr4fu2qffmyk5508",
-          "coins": [
-            {
-              "denom": "unova",
-              "amount": "10000000000"
-            }
-          ]
-        },
-        {
-          "address": "nova10q2c4wnunpfycr95c722fxe37m6j3ulsl5380q",
-          "coins": [
-            {
-              "denom": "unova",
-              "amount": "10000000000"
-            }
-          ]
-        },
-        {
-          "address": "nova17kqkgyh9fea42kqmuyx6fdffxmrjwh64t3lye3",
-          "coins": [
-            {
-              "denom": "unova",
-              "amount": "10000000000"
-            }
-          ]
-        },
-        {
-          "address": "nova1k2h20vvxvclvksg72c4ewxwztf64uetf8s3k5x",
-          "coins": [
-            {
-              "denom": "unova",
-              "amount": "10000000000"
-            }
-          ]
         }
       ],
       "supply": [],
@@ -829,7 +733,7 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "novatest",
+                  "moniker": "validator1",
                   "identity": "",
                   "website": "",
                   "security_contact": "",
@@ -845,15 +749,15 @@
                 "validator_address": "novavaloper1zkarsurgym3hnm06qupyt96pu0k24k4fpqd2fn",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "o938TKTiCQt7O/X71Hg/4QdrYPHBxhpxEPWo/xjBSS0="
+                  "key": "Ksuh9QhCJehFrAnFpgaY5B2amZEXHr7cZm1v/Y09ZWk="
                 },
                 "value": {
                   "denom": "unova",
-                  "amount": "100000000000"
+                  "amount": "1000000000000"
                 }
               }
             ],
-            "memo": "bd3e3f786069d9337e4ee03027b59b52201321f6@192.168.200.50:26656",
+            "memo": "11843270ecaa7a495ced55bf6e74cdaa4b410b8a@192.168.183.228:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -881,7 +785,129 @@
             }
           },
           "signatures": [
-            "7mYGIv+TBJIsnctFpDxp08Y36B1e3iyFxFBph8F49zoh9SKPGB0TbXIC4hU3Fz47yu42yZC12aRKfhcwCSB+Rw=="
+            "GAYr6wJ/DQtSztAMILfzEqExRTn4vryZ5rnYvFV15GQO5cb1ZbEjFqIkeklCDWItNSRNBWpPydK1CEGFc2bP4w=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator2",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nova1059974vvy0ajtlmzv05u5323lns3uxn8as99az",
+                "validator_address": "novavaloper1059974vvy0ajtlmzv05u5323lns3uxn85vdu9u",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "fjJdgAs3oTAXzIXiExexmZFWFml6fWWA2fM9EIZkSCw="
+                },
+                "value": {
+                  "denom": "unova",
+                  "amount": "10000000000"
+                }
+              }
+            ],
+            "memo": "32e3e09aca23812786b821865fdb972830326503@192.168.185.90:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AxXFVylP8D7OlTbsDwDDbeY3sonZmlv4P46uswq39PIS"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "fZOX7k3ij5lUL3z0FQ9JRTGd1BNgvfTiiR/ByqD2Z+YBiEHUorgwzGGUek0gk5/Lg9ZnSwlT6kT+TCoozN58cA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "validator3",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "nova1gmak3zd0juj2kt3mhxrz0dh5llz2a8jqqrwkae",
+                "validator_address": "novavaloper1gmak3zd0juj2kt3mhxrz0dh5llz2a8jqflx098",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "fjGRXWTsBxgGjcHhpnSXkwNB2EtPbxEoNAWMHlCOoHI="
+                },
+                "value": {
+                  "denom": "unova",
+                  "amount": "10000000000"
+                }
+              }
+            ],
+            "memo": "c43687e29985e43986e78653b4967bc9d385562c@192.168.96.201:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AnUCgUCcec/VcGCRXjFYbXAj6qOXe4NBdtQWtesrrWW3"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            }
+          },
+          "signatures": [
+            "MPXu0FO5l2gru9NtcS/JizI7Eo/5JdUGh/npIs4SvKpMmxTbNKDrYpxq/wkTkvTEbgn5/U7k4kqzL+pRBxrihg=="
           ]
         },
         {
@@ -902,11 +928,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "nova10q2c4wnunpfycr95c722fxe37m6j3ulsl5380q",
-                "validator_address": "novavaloper10q2c4wnunpfycr95c722fxe37m6j3ulskge7h7",
+                "delegator_address": "nova104w5m98x0fd4fw44gar6tqrs6j6elevpnq8rlw",
+                "validator_address": "novavaloper104w5m98x0fd4fw44gar6tqrs6j6elevp6u068s",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "zaDdD+/YSMeKZaasuABKQ31d/4Y+zUJqDfvxE6BI5bQ="
+                  "key": "RHwgVocVc6SlFeawcQqn/5ll+Vd6uND41kTiOjKPs7Y="
                 },
                 "value": {
                   "denom": "unova",
@@ -914,7 +940,7 @@
                 }
               }
             ],
-            "memo": "b835268ad913bd93146c438887889f709e541f8a@211.219.19.71:26656",
+            "memo": "46a078b53653e712b7a3cddd747aa68398ba1418@211.219.19.71:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -924,7 +950,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AtM9DACBE5if9b/tvwRzhPvnEfczkzetBl5x2YQG2rTx"
+                  "key": "AjRGpxhRtVGQ2hD3fbUI3OK0HspRMXts+Por14cANu2D"
                 },
                 "mode_info": {
                   "single": {
@@ -942,7 +968,7 @@
             }
           },
           "signatures": [
-            "cG7/esSWMoOHHe9fpFk+bmgWB33dSyc6ox6QuH22CxxON32rS6B0UJw7IcCYoalwUapl7H8PBnL2Azgvyu0uUg=="
+            "Mivsv/ckJUVqAhVCvUznF3m7b+x+fh+JCVWUOpXrG1xIC4TyrVUJdHMmWt/qyMyUNGg0CqBrfBkbPkg3YNFFbg=="
           ]
         },
         {
@@ -963,11 +989,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "nova17kqkgyh9fea42kqmuyx6fdffxmrjwh64t3lye3",
-                "validator_address": "novavaloper17kqkgyh9fea42kqmuyx6fdffxmrjwh64zdhap0",
+                "delegator_address": "nova18fysw88vuk5nzlzlymcdflhrx94jqzzewy5dgg",
+                "validator_address": "novavaloper18fysw88vuk5nzlzlymcdflhrx94jqzze8cu5sk",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "zaDdD+/YSMeKZaasuABKQ31d/4Y+zUJqDfvxE6BI5bQ="
+                  "key": "gXOy1FSP+yGUKLQBbxrICgQBsZBtyIwZMDdVgs8wOYs="
                 },
                 "value": {
                   "denom": "unova",
@@ -975,7 +1001,7 @@
                 }
               }
             ],
-            "memo": "b835268ad913bd93146c438887889f709e541f8a@211.219.19.71:26656",
+            "memo": "69ebba635540c1019ebdd15057ac5d1cd4bdc89f@211.219.19.71:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -985,7 +1011,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "Az2pdYbLY7YwoE3u1rlmzoHH1VNfSOUThNCcXez37N7c"
+                  "key": "AjJhjTkYdsCQ9Ex7pIiSL8tkUkqCAy51gLcLz28MBv+3"
                 },
                 "mode_info": {
                   "single": {
@@ -1003,7 +1029,7 @@
             }
           },
           "signatures": [
-            "GkVoBjg2SFaPPSgq8Y3nEJT/QcVt5jHnm0UNSWz8DZAjCJqNDrUKoINhCo5/0u8Et7Gz1X4XIxYuAZs3e/rv2w=="
+            "wR91H3JcNaVXfHQ1fDI/0WMoe0qF2e7p13PV99yaN0VF3RNYtZgYMSb/KCXH+mQv5hACvfWDnRrY60KLwVJh4w=="
           ]
         },
         {
@@ -1024,11 +1050,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "nova1k2h20vvxvclvksg72c4ewxwztf64uetf8s3k5x",
-                "validator_address": "novavaloper1k2h20vvxvclvksg72c4ewxwztf64uetfwve0vc",
+                "delegator_address": "nova1j26aws0zz3xss7r5ql0jwmhm6f9mlqq5ezqdky",
+                "validator_address": "novavaloper1j26aws0zz3xss7r5ql0jwmhm6f9mlqq5s7g5w6",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "zaDdD+/YSMeKZaasuABKQ31d/4Y+zUJqDfvxE6BI5bQ="
+                  "key": "5YIYPrsVrmguBVWt/wYXAQf0Gp3I4Ba5rB1be89C0sA="
                 },
                 "value": {
                   "denom": "unova",
@@ -1036,7 +1062,7 @@
                 }
               }
             ],
-            "memo": "b835268ad913bd93146c438887889f709e541f8a@211.219.19.71:26656",
+            "memo": "19ee1eed493063a46b5c6eca184ee9819a751020@211.219.19.71:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -1046,7 +1072,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AsXIII8P4kpr8oksBQPibU5De27SbqGnnB/9BOZttvBw"
+                  "key": "AiqqzuddMe6DDcF3AqsZ2PtWH/Vu70MQ+6ltGQ/Sc8OQ"
                 },
                 "mode_info": {
                   "single": {
@@ -1064,7 +1090,7 @@
             }
           },
           "signatures": [
-            "4NFSYGTwtz3dzL1UE5fuz8qnvJxTxI9q6z78LHGVtJA4J6ZQ92de3D2DgNcR/cGjS+RgUgOnBS6tgYib0KYKMQ=="
+            "tB1Ud8wvHrLA+0K0Afxr46tJUw7kj2dGVzCG/GXfEHs7ZUUNSfY+oT6qIu5sp4ojluf3CHV1fABNPbqDbCma6g=="
           ]
         }
       ]
@@ -1134,15 +1160,7 @@
       "controller_address_info": [
         {
           "zone_id": "gaia",
-          "controller_address": "nova1f0ncyee30hlf4m3ym7f87gcr4fu2qffmyk5508"
-        },
-        {
-          "zone_id": "osmosis",
-          "controller_address": "nova1kxdf08v5th7g983ggxqak4w6vsyu88tnnkwlxt"
-        },
-        {
-          "zone_id": "juno",
-          "controller_address": "nova16y6jyjg8k7utjtf9zd0zaqef4p8qqs89mwk3f4"
+          "controller_address": "nova1lds58drg8lvnaprcue2sqgfvjnz5ljlkq9lsyf"
         }
       ]
     },
@@ -1161,7 +1179,8 @@
         "port": "icahost",
         "params": {
           "host_enabled": false,
-          "allow_messages": []
+          "allow_messages": [
+          ]
         }
       }
     },
@@ -1195,19 +1214,7 @@
         {
           "zone_id": "gaia",
           "oracle_address": [
-            "nova14qehls0kenjad2lth33ry7aed8nyk0tkagu7jl"
-          ]
-        },
-        {
-          "zone_id": "osmosis",
-          "oracle_address": [
-            "nova1wylwuvhrpfhnq79g0m9pqdlu30xz6c5pc770uw"
-          ]
-        },
-        {
-          "zone_id": "juno",
-          "oracle_address": [
-            "nova1snnccjuatcfqjv0lu7rsvl2e9ulwcvqtdy6nuy"
+            "nova1lds58drg8lvnaprcue2sqgfvjnz5ljlkq9lsyf"
           ]
         }
       ]
@@ -1227,9 +1234,9 @@
     },
     "slashing": {
       "params": {
-        "signed_blocks_window": "100",
+        "signed_blocks_window": "30000",
         "min_signed_per_window": "0.500000000000000000",
-        "downtime_jail_duration": "600s",
+        "downtime_jail_duration": "60s",
         "slash_fraction_double_sign": "0.050000000000000000",
         "slash_fraction_downtime": "0.010000000000000000"
       },
