@@ -86,3 +86,50 @@ novad gentx <key-name> 10000000000unova --output-document=gentx.json \
   --min-self-delegation="1" \
   --keyring-backend <os | file>
 ```
+
+### Running in production
+Nova clone
+```
+git clone https://github.com/Carina-labs/nova.git@champagne-v0.0.2
+make install
+```
+
+If you install novad successfully, you can check version
+```
+$GOPATH/bin/novad version
+// It will be like "champagne-v0.0.2"
+```
+Note, as usual we'll be going through some upgrades for this testnet.
+
+If you have not installed cosmovisor, create a systemd file for your Nova service:
+```
+sudo nano /etc/systemd/system/novad.service
+```
+Copy and paste the following and update <YOUR_USERNAME>:
+```
+Description=Nova daemon
+After=network-online.target
+
+[Service]
+User=nova
+ExecStart=/home/<YOUR_USERNAME>/go/bin/novad start
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target
+```
+Enable and start the new service:
+```
+sudo systemctl enable novad
+sudo systemctl start novad
+```
+Check status:
+```
+novad status
+```
+Check logs:
+```
+journalctl -u novad -f
+```
