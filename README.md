@@ -149,20 +149,24 @@ journalctl -u novad -f
 ```
 
 ## IBC Information
-IBC Transfer channel info
-nova <-> gaia
+### IBC Transfer channel info
+**nova <-> gaia**
 connection-2, channel-2 <-> connection-0, channel-0
-nova <-> osmosis
+
+**nova <-> osmosis**
 connection-0, channel-1 <-> connection-0, channel-0
-nova <-> juno
+
+**nova <-> juno**
 connection-1, channel-0 <-> connection-0, channel-0
 
-ICA channel info
-nova <-> gaia
+### ICA channel info
+**nova <-> gaia**
 connection-2, channel-3, icacontroller-gaia.nova1f0ncyee30hlf4m3ym7f87gcr4fu2qffmyk5508 <-> connection-0, channel-4, icahost
-nova <-> osmosis
+
+**nova <-> osmosis**
 connection-0, channel-4, icacontroller-osmosis.nova1kxdf08v5th7g983ggxqak4w6vsyu88tnnkwlxt <-> connection-0, channel-2, icahost
-nova <-> juno
+
+**nova <-> juno**
 connection-1, channel-5, icacontroller-juno.nova16y6jyjg8k7utjtf9zd0zaqef4p8qqs89mwk3f4 <-> connection-0, channel-2, icahost
 
 ## Useful Endpoint
