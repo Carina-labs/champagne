@@ -151,14 +151,30 @@ journalctl -u novad -f
 ## Useful Endpoint
 If you want use public endpoint(tendermint, rest) using test network, please refer it.
 ### Supernova endpoint
-* tendermint rpc : https://supernova-tendermint.dev-supernova.xyz
-* rest : https://supernova-rest.dev-supernova.xyz
+* RPC node's tendermint rpc : https://supernova-tendermint.dev-supernova.xyz
+* RPC node's rest : https://supernova-rest.dev-supernova.xyz
+
+* Validator 1's tendermint rpc : http://nova-validator1-l4.dev-supernova.xyz:26657
+* Validator 2's tendermint rpc : http://nova-validator2-l4.dev-supernova.xyz:26657
+* Validator 3's tendermint rpc : http://nova-validator3-l4.dev-supernova.xyz:26657
 
 ### Stub-gaia endpoint
 * tendermint rpc : https://gaia-tendermint.dev-supernova.xyz
 
+* Validator 1's tendermint rpc : http://gaia-validator1-l4.dev-supernova.xyz:26657
+* Validator 2's tendermint rpc : http://gaia-validator2-l4.dev-supernova.xyz:26657
+* Validator 3's tendermint rpc : http://gaia-validator3-l4.dev-supernova.xyz:26657
+
 ### Stub-osmosis endpoint
 * tendermint rpc : https://osmosis-tendermint.dev-supernova.xyz
 
+* Validator 1's tendermint rpc : http://osmosis-validator1-l4.dev-supernova.xyz:26657
+* Validator 2's tendermint rpc : http://osmosis-validator2-l4.dev-supernova.xyz:26657
+* Validator 3's tendermint rpc : http://osmosis-validator3-l4.dev-supernova.xyz:26657
+
 ### Stub-juno endpoint
 * tendermint rpc : https://juno-tendermint.dev-supernova.xyz
+
+* Validator 1's tendermint rpc : http://juno-validator1-l4.dev-supernova.xyz:26657
+* Validator 2's tendermint rpc : http://juno-validator2-l4.dev-supernova.xyz:26657
+* Validator 3's tendermint rpc : http://juno-validator3-l4.dev-supernova.xyz:26657
