@@ -151,12 +151,15 @@ journalctl -u novad -f
 ## IBC Information
 ### IBC Transfer channel info
 **nova <-> gaia**
+
 connection-2, channel-2 <-> connection-0, channel-0
 
 **nova <-> osmosis**
+
 connection-0, channel-1 <-> connection-0, channel-0
 
 **nova <-> juno**
+
 connection-1, channel-0 <-> connection-0, channel-0
 
 ### ICA channel info
