@@ -111,7 +111,7 @@ You can add testnet peer list:
 cd $HOME/.novad/config/config.toml
 
 ...
-persistent_peers = "11843270ecaa7a495ced55bf6e74cdaa4b410b8a@nova-node-validator1-headless:26656,32e3e09aca23812786b821865fdb972830326503@nova-node-validator2-headless:26656,c43687e29985e43986e78653b4967bc9d385562c@nova-node-validator3-headless:26656,19ee1eed493063a46b5c6eca184ee9819a751020@211.219.19.71:26656,46a078b53653e712b7a3cddd747aa68398ba1418@211.219.19.71:26656,69ebba635540c1019ebdd15057ac5d1cd4bdc89f@211.219.19.71:26656"
+persistent_peers = "11843270ecaa7a495ced55bf6e74cdaa4b410b8a@nova-validator1-l4.dev-supernova.xyz:26656,32e3e09aca23812786b821865fdb972830326503@nova-validator2-l4.dev-supernova.xyz:26656,c43687e29985e43986e78653b4967bc9d385562c@nova-validator3-l4.dev-supernova.xyz:26656,19ee1eed493063a46b5c6eca184ee9819a751020@211.219.19.71:26656,46a078b53653e712b7a3cddd747aa68398ba1418@211.219.19.71:26656,69ebba635540c1019ebdd15057ac5d1cd4bdc89f@211.219.19.71:26656"
 ```
 Note, these peer list are being used for test-network.
 
