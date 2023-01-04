@@ -1,5 +1,5 @@
 # Champagne
-supernova testent
+supernova testnet
 
 # Supernova Testnet Champagne
 
