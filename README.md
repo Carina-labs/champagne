@@ -1,5 +1,6 @@
 # Champagne
-supernova testnet
+
+Champagne network is official test network for supernova protocol.
 
 # Supernova Testnet Champagne
 
