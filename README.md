@@ -7,7 +7,7 @@ First public nova testnet.
   
 | Attribute | Value     |
 |-----------|-----------|
-| Chain ID  | `nova` |
+| Chain ID  | `champagne` |
 
 ## Requirements
 
