@@ -26,7 +26,7 @@ First public nova testnet.
 
 ## Tools
 
-* [Supernova Champagne Blockchain Explorer]
+* [Supernova Champagne Blockchain Explorer](https://explorer.dev-supernova.xyz/supernova)
 * [Supernova Champagne Faucet]
 
 ## Documentation
@@ -36,7 +36,7 @@ First public nova testnet.
 
 ### Init
 ```bash:
-novad init "<moniker-name>" --chain-id nova
+novad init "<moniker-name>" --chain-id champagne
 ```
 
 ### Generate keys
