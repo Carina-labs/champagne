@@ -30,7 +30,7 @@ First public nova testnet.
 * [Supernova Champagne Blockchain Explorer](https://explorer.dev-supernova.xyz/supernova)
 
 ## Documentation
-* [supernova docs](https://docs.supernovaprotocol.xyz/)
+* [Supernova docs](https://docs.supernovaprotocol.xyz/)
 
 ## GenTx generation
 
