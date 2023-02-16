@@ -168,7 +168,7 @@ connection-0, channel-0 <-> connection-0, channel-0
 |            | nova         | stub-cosmos  |
 |------------|--------------|--------------|
 | connection | connection-0 | connection-0 |
-| channel    | channel--    | channel-0    |
+| channel    | channel-0    | channel-0    |
 | port       | transfer     | transfer     |
 
 **nova <-> osmosis**
