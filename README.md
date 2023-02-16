@@ -28,7 +28,6 @@ First public nova testnet.
 ## Tools
 
 * [Supernova Champagne Blockchain Explorer](https://explorer.dev-supernova.xyz/supernova)
-* [Supernova Champagne Faucet]
 
 ## Documentation
 * [supernova docs](https://docs.supernovaprotocol.xyz/)
