@@ -32,7 +32,7 @@ First public nova testnet.
 ## Documentation
 * [Supernova docs](https://docs.supernovaprotocol.xyz/)
 
-## GenTx generation
+## Joining as a Validator
 
 ### Init
 ```bash:
